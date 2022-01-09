@@ -22,7 +22,8 @@ deduction =3000 #it is the deduction per dependents
 Tax_rate =0.20 # the tax rate 20%
 Taxable_income = gross_income-standard_deduction-(Dependents*deduction)
 Tax = float(Taxable_income*Tax_rate)
-print("The Final Tax amount should be paid is: ",Tax)
+print("The Final Tax amount should be paid is: ",Tax)
+
 
 #QUESTION 3
 # take input from student of his/her information name,course,SID,Gender,CGPA
@@ -44,7 +45,8 @@ CGPA = float(input("enter your CGPA:"))
 Student = [SID, Name, Gender, Course, CGPA]
 # now we printing the details
 print("\n***STUDENT DETAIL***")
-print(Student)
+print(Student)
+
 
 #QUESTION 4
 # take the marks of five students then arrange in list then sort in and get sorted output
@@ -65,7 +67,7 @@ color=['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
 print(color)
 # (a) Python program to print a specified list after removing 4th element.
 color.pop(3) # 3 is index to 4th element of color list
- print("output of part a is:")
+print("output of part a is:")
 print(color)
 
 #b) Source code:-
