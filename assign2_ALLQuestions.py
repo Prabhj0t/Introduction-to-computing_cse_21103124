@@ -85,11 +85,8 @@ side1 = input("Enter the value of side a:")
 side2 = input("Enter the value of side b:")
 side3 = input("Enter the value of side c:")
 # using conditional statment
-# if any side is length 0 not possible a triangle
-if (int(side1) == 0) or (int(side2) == 0) or (int(side3) == 0):
-    print("No")
 # any of three side shouldn't greater than the some of other two sides
-elif (int(side3) >= (int(side1)+int(side2))) or (int(side2) >= (int(side1)+int(side3))) or (int(side1) >= (int(side2)+int(side3))):
+if (int(side3) >= (int(side1)+int(side2))) or (int(side2) >= (int(side1)+int(side3))) or (int(side1) >= (int(side2)+int(side3))):
     print("No")
 else:
     print("Yes")
