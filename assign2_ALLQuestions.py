@@ -81,12 +81,13 @@ else:
 
 # ques6
 # define the sides of a triangle with variable a,b and c.
-side1 = input("Enter the value of side a:")
-side2 = input("Enter the value of side b:")
-side3 = input("Enter the value of side c:")
+side1 = int(input("Enter the value of side a:"))
+side2 = int(input("Enter the value of side b:"))
+side3 = int(input("Enter the value of side c:"))
 # using conditional statment
 # any of three side shouldn't greater than the some of other two sides
-if (int(side3) >= (int(side1)+int(side2))) or (int(side2) >= (int(side1)+int(side3))) or (int(side1) >= (int(side2)+int(side3))):
-    print("No")
-else:
+if ((side3) < ((side1)+(side2))) and ((side2) < ((side1)+(side3))) and ((side1) < ((side2)+(side3))):
     print("Yes")
+else:
+    print("No")
+
