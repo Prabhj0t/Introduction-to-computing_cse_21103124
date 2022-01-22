@@ -89,7 +89,7 @@ side3 = input("Enter the value of side c:")
 if (int(side1) == 0) or (int(side2) == 0) or (int(side3) == 0):
     print("No")
 # any of three side shouldn't greater than the some of other two sides
-elif (int(side3) > (int(side1)+int(side2))) or (int(side2) > (int(side1)+int(side3))) or (int(side1) > (int(side2)+int(side3))):
+elif (int(side3) >= (int(side1)+int(side2))) or (int(side2) >= (int(side1)+int(side3))) or (int(side1) >= (int(side2)+int(side3))):
     print("No")
 else:
     print("Yes")
