@@ -42,6 +42,7 @@ Enter the Year: 2021
 NEXT DATE IS: 1 / 1 / 2022
 WISHING YOU HAPPY NEW YEAR :)
 
+
 = RESTART: C:/Users/Prabhjot Singh/Desktop/semester 1/Introduction to computing (ESC 1L)/computing idle/3rd_output.py
 Enter the No. of elements you want list of :5
 Enter the element in list :1
@@ -56,31 +57,27 @@ Enter the element in list :7
 [1, 3, 5, 3, 7]
 Final list we have is: [1, 3, 5, 3, 7]
 The list of touples we have as output is : [(1, 1), (3, 9), (5, 25), (3, 9), (7, 49)]
-Enter Grade Points you earn between 4 to 10: 
+
+ 
+ 
 = RESTART: C:/Users/Prabhjot Singh/Desktop/semester 1/Introduction to computing (ESC 1L)/computing idle/4th_output.py
 Enter Grade Points you earn between 4 to 10: 4
 you Got D grade and Poor Performance
-
 = RESTART: C:/Users/Prabhjot Singh/Desktop/semester 1/Introduction to computing (ESC 1L)/computing idle/4th_output.py
 Enter Grade Points you earn between 4 to 10: 5
 you Got C grade and Below Average Performance
-
 = RESTART: C:/Users/Prabhjot Singh/Desktop/semester 1/Introduction to computing (ESC 1L)/computing idle/4th_output.py
 Enter Grade Points you earn between 4 to 10: 6
 you Got C+ grade and Average Performance
-
 = RESTART: C:/Users/Prabhjot Singh/Desktop/semester 1/Introduction to computing (ESC 1L)/computing idle/4th_output.py
 Enter Grade Points you earn between 4 to 10: 7
 you Got B grade and Good Performance
-
 = RESTART: C:/Users/Prabhjot Singh/Desktop/semester 1/Introduction to computing (ESC 1L)/computing idle/4th_output.py
 Enter Grade Points you earn between 4 to 10: 8
 you Got B+ grade and Very good Performance
-
 = RESTART: C:/Users/Prabhjot Singh/Desktop/semester 1/Introduction to computing (ESC 1L)/computing idle/4th_output.py
 Enter Grade Points you earn between 4 to 10: 9
 you Got A grade and Excellent Performance
-
 = RESTART: C:/Users/Prabhjot Singh/Desktop/semester 1/Introduction to computing (ESC 1L)/computing idle/4th_output.py
 Enter Grade Points you earn between 4 to 10: 10
 you Got A+ grade and Outstanding Performance
@@ -93,57 +90,6 @@ ABCDEFGHIJK
    ABCDE
     ABC
      A
-
-
-
-= RESTART: C:/Users/Prabhjot Singh/Desktop/semester 1/Introduction to computing (ESC 1L)/computing idle/6th_output.py
-QUESTION 6
-Enter SID: 21103124
-Enter Name: PRABHJOT SINGH
-Do you want to enter another student entry(Y or N):Y
-Enter SID: 21103123
-Enter Name: Onkar Ram
-Do you want to enter another student entry(Y or N):Y
-Enter SID: 21103105
-Enter Name: TARUNDEEP
-Do you want to enter another student entry(Y or N):N
-a: {21103124: 'PRABHJOT SINGH', 21103123: 'Onkar Ram', 21103105: 'TARUNDEEP'}
-b: {21103123: 'Onkar Ram', 21103124: 'PRABHJOT SINGH', 21103105: 'TARUNDEEP'}
-c: {21103105: 'TARUNDEEP', 21103123: 'Onkar Ram', 21103124: 'PRABHJOT SINGH'}
-Search Name with SID: Onkar Ram
-Traceback (most recent call last):
-  File "C:/Users/Prabhjot Singh/Desktop/semester 1/Introduction to computing (ESC 1L)/computing idle/6th_output.py", line 28, in <module>
-    sid = int(input("Search Name with SID: "))
-ValueError: invalid literal for int() with base 10: 'Onkar Ram'
-
-
-= RESTART: C:/Users/Prabhjot Singh/Desktop/semester 1/Introduction to computing (ESC 1L)/computing idle/6th_output.py
-QUESTION 6
-Enter SID: PRABHJOT
-Traceback (most recent call last):
-  File "C:/Users/Prabhjot Singh/Desktop/semester 1/Introduction to computing (ESC 1L)/computing idle/6th_output.py", line 2, in <module>
-    sid = int(input("Enter SID: "))
-ValueError: invalid literal for int() with base 10: 'PRABHJOT'
-
-= RESTART: C:/Users/Prabhjot Singh/Desktop/semester 1/Introduction to computing (ESC 1L)/computing idle/6th_output.py
-QUESTION 6
-Enter SID: 21103124
-Enter Name: PRABHJOT
-Do you want to enter another student entry(Y or N):Y
-Enter SID: 21103123
-Enter Name: ONKAR
-Do you want to enter another student entry(Y or N):N
-dictionary
-a: {21103124: 'PRABHJOT', 21103123: 'ONKAR'}
-sort acc. to the names
-b: {21103123: 'ONKAR', 21103124: 'PRABHJOT'}
-sort acc. to the SIDs
-c: {21103123: 'ONKAR', 21103124: 'PRABHJOT'}
-Search Name with SID: ONKAR
-Traceback (most recent call last):
-  File "C:/Users/Prabhjot Singh/Desktop/semester 1/Introduction to computing (ESC 1L)/computing idle/6th_output.py", line 31, in <module>
-    sid = int(input("Search Name with SID: "))
-ValueError: invalid literal for int() with base 10: 'ONKAR'
 
 = RESTART: C:/Users/Prabhjot Singh/Desktop/semester 1/Introduction to computing (ESC 1L)/computing idle/6th_output.py
 Enter SID: 21103124
