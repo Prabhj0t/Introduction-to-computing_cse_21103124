@@ -2,14 +2,6 @@ Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (
 Type "help", "copyright", "credits" or "license()" for more information.
 
 ============== RESTART: C:/Users/Prabhjot Singh/Desktop/4thcode.py =============
-CODE OF 4
-ENTER the no. of element you want list of..:
-5
-Enter the integers with a blank spaces but without commas:
-1 7 34 87 24
-Your Sorted array is:  [1, 7, 24, 34, 87]
-
-============== RESTART: C:/Users/Prabhjot Singh/Desktop/4thcode.py =============
 CODE OF 4th
 ENTER the no. of element you want list of..:
 7
